@@ -49,7 +49,7 @@
     font-weight: bold;
 }
 .description{
-    font-size: 20px;
+    font-size: 18px;
     margin: 15px 0px;
 }
 .banner-btn{
@@ -59,4 +59,31 @@
     border: none;
     font-size: 15px;
     font-weight: bold;
+}
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.abt-head{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+}
+.abt-img{
+    width: 300px;
+}
+.abt-title{
+font-size: 25px;
+
+}
+.btn-about{
+    padding: 10px 20px;
+    background-color: red;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    
 }
