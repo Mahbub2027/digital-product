@@ -28,3 +28,35 @@
 .menu-item:hover{
     color: red;
 }
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    color: white;
+    background-image: url('../images/background.png'),
+    linear-gradient(45deg, rgb(8, 8, 8), rgb(10, 10, 10));
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+
+}
+.ban-img{
+    width: 300px;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 20px;
+    margin: 15px 0px;
+}
+.banner-btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
